@@ -1,0 +1,29 @@
+$midGrey:rgba(195,195,195,1);
+$logoBlue:rgba(95,122,148,1);
+$linkBlue:rgba(95,122,148,1);
+$logoOrange:rgba(156,75,46,1);
+$logoLightGrey:rgba(221,226,232,1);
+$lightBlue:rgba(33,187,236,1);
+$midBlue:rgba(0,144,190,1);
+$errorYellow:rgba(255,246,95,1);
+
+@mixin boxShadow() {
+	-webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.25);
+	-moz-box-shadow:    0px 0px 6px 0px rgba(50, 50, 50, 0.25);
+	box-shadow:         0px 0px 6px 0px rgba(50, 50, 50, 0.25);
+}
+@mixin lightGreyBorder() {
+	-webkit-border-top-left-radius: 6px;
+	-moz-border-radius-topleft: 6px;
+	border-top-left-radius: 6px;
+	-webkit-border-top-right-radius: 6px;
+	-moz-border-radius-topright: 6px;
+	border-top-right-radius: 6px;
+	-webkit-border-bottom-right-radius: 6px;
+	-moz-border-radius-bottomright: 6px;
+	border-bottom-right-radius: 6px;
+	-webkit-border-bottom-left-radius: 6px;
+	-moz-border-radius-bottomleft: 6px;
+	border-bottom-left-radius: 6px;
+	border: 1px solid $midBlue;
+}

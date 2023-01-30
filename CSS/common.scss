@@ -1,0 +1,142 @@
+@import 'vars.scss';
+
+html,body {
+	width:100%;
+	height:100%;
+	margin:0px;
+	padding:0px;
+	background-color:white;
+    font-family: "proxima-nova-alt",sans-serif;
+    font-size:12pt;
+    color:$logoBlue;
+}
+h1,h2,h3,h4,h5,h6,a {
+	font-family: "proxima-nova-alt",sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	color: white;
+	padding: 0px;
+	margin: 0px;
+}
+h1 {font-size:2em;}
+h2 {
+	font-size:1.75em;
+	margin-bottom:10px;
+	}
+h3 {font-size:1.5em;}
+h4 {font-size:1.25em;}
+h5 {font-size:1em;}
+h6 {font-size:.75em;}
+a {
+	font-size: .9em;
+	font-style: normal;
+	text-transform: none;
+	text-decoration: none;
+	color:$linkBlue;
+	&:link {color:$linkBlue;}
+	&:visited {color:$linkBlue;}
+	&:hover {color:$linkBlue;}	
+	&:active {color:$linkBlue;}
+}
+.majorLink {
+	width: 146px;
+	height: 40px;
+	text-align: left;
+	line-height: 40px;
+	background-color:white;
+	&:hover {
+		background-color:$midGrey;
+		color: white;
+	}
+	text-indent: 25px;
+}
+.activePageLink {
+	color:white;
+	background-color:$linkBlue;
+}
+p {
+	font-family: "proxima-nova-alt",sans-serif;
+	font-style: normal;
+	font-weight: 300;
+	font-size: .75em;
+	padding: 0px;
+	margin: 0px;
+	margin-bottom:10px;
+}
+ul { font-size: .9em; }
+
+#pageContainer {
+	position: relative;
+	width: 965px;
+	margin: 0px auto 0px auto;
+	background-color: #FFF;
+	@include boxShadow();
+}
+#headerContainer {
+	position:relative;
+	left:0px;
+	top:0px;
+	background-color: $logoLightGrey;
+	width:100%;
+	height:94px;
+}
+#headerContainerTextContainer {
+	position: absolute;
+	left: 271px;
+	top: 0px;
+	width: 694px;
+	height: 42px;
+	background-color: white;
+	text-align: center;
+	font-style: italic;
+	font-weight: 600;
+	font-size: 1em;
+	color: $logoBlue;
+	text-decoration: underline;
+	padding-top: 52px;;
+}
+#contentContainer {
+	background-color: white;
+}
+#mainNavContainer,#imageContentContainer,#bodyContentContainer {
+	position:relative;
+	float:left;
+	width:146px;
+	height:100%;
+	background-color: white;
+}
+#imageContentContainer {
+	width:245px;
+	margin-left:5px;
+}
+#bodyContentContainer {
+	width:505px;
+	height:612px;
+	margin-left:5px;
+	padding:20px;
+	color:white;
+	background-color:$logoBlue;
+}
+#mainNavContainer {
+	position:relative;
+	float:left;
+	width:146px;
+	height:100%;
+	background-color: $logoLightGrey;
+}
+#footerContainer {
+	font-size:.85em;
+	padding:25px;
+	text-align:right;
+}
+.clearALL {clear:both;}
+
+
+#errMessage {
+	width: 95%;
+	padding: 10px;
+	background-color: $errorYellow;
+	margin: 0px auto 20px auto;
+	font-size:1em;
+	color:$logoBlue;
+}

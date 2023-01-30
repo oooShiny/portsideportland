@@ -1,0 +1,439 @@
+@charset "UTF-8";
+/* CSS Document */
+@charset "UTF-8";
+/* CSS Document */
+
+@charset "UTF-8";
+/* Source: http://www.elementalfocus.com/normalizing-your-css/ */
+/* Normalize padding and margins */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+
+/* Normalize header sizes */
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+}
+
+/* Normalize list styles */
+ul{
+	padding-left:15px;
+}
+
+/* Normalize font style and weight on odd elements */
+address, caption, cite, code, dfn, em, strong, th, var {
+	font-style: normal;
+	font-weight: normal;
+}
+
+/* Normalize table borders */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Normalize other borders */
+fieldset, img {
+	border: 0;
+}
+
+/* Normalize text-alignment */
+caption, th {
+	text-align: left;
+}
+
+/* Normalize (remove) quotation marks */
+q:before, q:after {
+	content: '';	
+}
+
+
+
+/*-----------------------------------------------------------------------------------------------------------------------------*/
+
+a{
+	text-decoration:none;
+	border:none;
+	color:#929497;
+	outline:none;
+}
+a:hover{
+	color: #9C4B2E;
+}
+
+.h1{
+font-size:30px;
+color: #D0D2D3;
+font-family: Georgia, "Times New Roman", Times, serif;
+font-weight:100;
+}
+.h2{
+font-family:Georgia, "Times New Roman", Times, serif;
+font-size: 36px;
+color: #B495A8;
+padding-left:120px;
+}
+
+h3 {
+font-size: 18px;
+color:#9C4B2E;
+}
+
+.h4{
+font-size:22px;
+
+font-family: Georgia, "Times New Roman", Times, serif;
+
+color:#F4F0C6;
+
+}
+
+.container_main{
+	width:954px;
+	height:auto;
+	left: 50%;
+	margin-top: 5px;
+	margin-left: -477px;
+	position: relative;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+.container_content{
+	float:left;
+	width: 813px;
+	height:auto;
+}
+.container_contact_php{
+	float:left;
+	width: 813px;
+	height:220px;
+	padding-top:45px;
+	text-align:center;
+	background-color: #5F7A94;
+	color:#FFFFFF;
+	font-size:14px;
+	font-weight:bold;
+}
+
+.container_logo{
+	float:left;
+	width:954px;
+	height:139px;
+}
+
+.container_nav{
+	float:left;
+	width:141px;
+	height:auto;
+}
+
+
+
+
+
+.image_1{
+	width:245px;
+	border-right:white 5px solid;
+	border-bottom:white 5px solid;
+}
+
+.image_2{
+	width:245px;
+	border-right:white 5px solid;
+}
+
+
+
+
+.content_city2{
+	width:789px;
+	height:425px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+.content_city3{
+	width:789px;
+	height:433px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+.content_units{
+	width:789px;
+	height:652px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+.content_pricing{
+	width:789px;
+	height:652px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+.content_gallery{
+	width:789px;
+	height:523px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+.content_gallery_views{
+	width:1100px;
+	height:523px;
+	float:left;
+
+	
+}
+
+
+.content_team{
+	width:789px;
+	height:433px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+.content_city_press{
+	width:789px;
+	height:433px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+.content_city_contact{
+	width:789px;
+	height:433px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+.content_city_dining{
+	width:789px;
+	height:1265px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+
+
+.content_city_spas{
+	width:789px;
+	height:723px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+.content_city_arts{
+	width:789px;
+	height:983px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+.content_city_markets{
+	width:789px;
+	height:1090px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+.content_city_outdoors{
+	width:789px;
+	height:1991px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+.content_city_shopping{
+	width:789px;
+	height:515px;
+	background-color:#5F7A94;
+	float:left;
+
+	
+}
+
+.contact_text{
+	color:#FFF;
+	width:500px;
+	float:left;
+	padding-left:10px;
+
+}
+
+.contact_text a{
+	color:#F4F0C6;
+
+
+}
+
+.city_images{
+	float:left;
+	width:253px;
+}
+
+.city_text{
+	color:#ffffff;
+	float:left;
+	width:500px;
+	padding:18px;
+}
+
+.pricing_text{
+	color:#ffffff;
+	float:left;
+	width:500px;
+	padding:18px;
+}
+
+.city_text a{
+	color:#F4F0C6;
+	font-weight:bold;
+}
+
+.city_text a:hover{
+	color: #9C4B2E;
+	font-weight:bold;
+}
+
+
+.city_nav{
+	float:left;
+}
+
+
+.footer_left{
+	float:left;
+	padding-left:141px;
+	color:#929497;
+	font-size:13px;
+	padding-top:5px;
+	width:552px;
+}
+
+.footer_right{
+	float:left;
+	padding-left:3px;
+	color:#929497;
+	font-size:13px;
+	padding-top:5px;
+
+}
+
+
+
+.form{
+width:205px;
+height:25px;
+}
+
+.team_header{
+	font-size:16px;
+	font-weight:bold;
+}
+	
+.home_box{
+width:208px;
+height:160px;
+background-color:#F2F0DF;
+border: 1px solid #9C4B2E;
+margin-left:18px;
+margin-top:32px;
+float:left;
+padding:15px;
+font-size:12px;
+color:#3B2314;
+}
+
+
+.logo{
+	float:left;
+}
+
+.logo_linetag{
+	float:left;
+	padding-top:70px;
+	font-style:italic;
+	color:#5F7A94;
+	border-bottom:1px solid #5F7A94;
+	font-weight:bold;
+	font-size:14px;
+	
+}
+
+.logo_line{
+	float:left;
+}
+
+.nav_home{
+	float:left;
+}
+
+.nav_units{
+	float:left;
+}
+
+.nav_gallery{
+	float:left;
+}
+
+.nav_team{
+	float:left;
+}
+
+.nav_auction{
+	float:left;
+}
+
+.nav_contact{
+	float:left;
+}
+
+.nav_city{
+	float:left;
+}
+
+.nav_press{
+	float:left;
+}
+
+.viewshots{
+	width:350px;
+	height:270px;
+}
+
+.unit_image{
+	width:750px;
+	height:550px;
+} 

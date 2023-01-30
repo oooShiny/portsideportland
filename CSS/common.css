@@ -1,0 +1,155 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  background-color: white;
+  font-family: "proxima-nova-alt",sans-serif;
+  font-size: 12pt;
+  color: #5f7a94; }
+
+h1, h2, h3, h4, h5, h6, a {
+  font-family: "proxima-nova-alt",sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  color: white;
+  padding: 0px;
+  margin: 0px; }
+
+h1 {
+  font-size: 2em; }
+
+h2 {
+  font-size: 1.75em;
+  margin-bottom: 10px; }
+
+h3 {
+  font-size: 1.5em; }
+
+h4 {
+  font-size: 1.25em; }
+
+h5 {
+  font-size: 1em; }
+
+h6 {
+  font-size: .75em; }
+
+a {
+  font-size: .9em;
+  font-style: normal;
+  text-transform: none;
+  text-decoration: none;
+  color: #5f7a94; }
+  a:link {
+    color: #5f7a94; }
+  a:visited {
+    color: #5f7a94; }
+  a:hover {
+    color: #5f7a94; }
+  a:active {
+    color: #5f7a94; }
+
+.majorLink {
+  width: 146px;
+  height: 40px;
+  text-align: left;
+  line-height: 40px;
+  background-color: white;
+  text-indent: 25px; }
+  .majorLink:hover {
+    background-color: #c3c3c3;
+    color: white; }
+
+.activePageLink {
+  color: white;
+  background-color: #5f7a94; }
+
+p {
+  font-family: "proxima-nova-alt",sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: .75em;
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 10px; }
+
+ul {
+  font-size: .9em; }
+
+#pageContainer {
+  position: relative;
+  width: 965px;
+  margin: 0px auto 0px auto;
+  background-color: #FFF;
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.25);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.25);
+  box-shadow: 0px 0px 6px 0px rgba(50, 50, 50, 0.25); }
+
+#headerContainer {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  background-color: #dde2e8;
+  width: 100%;
+  height: 94px; }
+
+#headerContainerTextContainer {
+  position: absolute;
+  left: 271px;
+  top: 0px;
+  width: 694px;
+  height: 42px;
+  background-color: white;
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  font-size: 1em;
+  color: #5f7a94;
+  text-decoration: underline;
+  padding-top: 52px; }
+
+#contentContainer {
+  background-color: white; }
+
+#mainNavContainer, #imageContentContainer, #bodyContentContainer {
+  position: relative;
+  float: left;
+  width: 146px;
+  height: 100%;
+  background-color: white; }
+
+#imageContentContainer {
+  width: 245px;
+  margin-left: 5px; }
+
+#bodyContentContainer {
+  width: 505px;
+  height: 612px;
+  margin-left: 5px;
+  padding: 20px;
+  color: white;
+  background-color: #5f7a94; }
+
+#mainNavContainer {
+  position: relative;
+  float: left;
+  width: 146px;
+  height: 100%;
+  background-color: #dde2e8; }
+
+#footerContainer {
+  font-size: .85em;
+  padding: 25px;
+  text-align: right; }
+
+.clearALL {
+  clear: both; }
+
+#errMessage {
+  width: 95%;
+  padding: 10px;
+  background-color: #fff65f;
+  margin: 0px auto 20px auto;
+  font-size: 1em;
+  color: #5f7a94; }
