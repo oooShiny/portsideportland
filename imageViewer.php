@@ -26,7 +26,7 @@
 			<a href="index.html"><div class="majorLink">home</div></a>
 			<a href="location2.html"><div class="majorLink">location</div></a>
 			<a href="pricing.html"><div class="majorLink">pricing/sales</div></a>
-			<a href="documents.php"><div class="majorLink">documents</div></a>
+			
 		</div>
 		<div id="bodyContentContainer">
 		<?php 

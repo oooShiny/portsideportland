@@ -29,8 +29,8 @@
 			<a href="documents.php"><div class="majorLink activePageLink">documents</div></a>
 		</div>
 		<div id="imageContentContainer">
-			<div class="leftColumnPhotoContainer"><a href="imageViewer.php?assetID=renderingEntry"><img src="assets/smallPhotosAndRenders/entryRender.jpg" width="245" height="214" alt="entryRender"></a></div>		
-			<div class="leftColumnPhotoContainer"><a href="imageViewer.php?assetID=renderingCorner"><img src="assets/smallPhotosAndRenders/cornerRender.jpg" width="245" height="214" alt="Hotel Sebago Rendering 06-02-10.jpg"></a></div>
+			<div class="leftColumnPhotoContainer"><a href="entry.html"><img src="assets/smallPhotosAndRenders/entryRender.jpg" width="245" height="214" alt="entryRender"></a></div>		
+			<div class="leftColumnPhotoContainer"><a href="corner.html"><img src="assets/smallPhotosAndRenders/cornerRender.jpg" width="245" height="214" alt="Hotel Sebago Rendering 06-02-10.jpg"></a></div>
 		</div>
 		<div id="bodyContentContainer">
 <?php 
